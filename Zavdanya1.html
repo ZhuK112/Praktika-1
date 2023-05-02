@@ -11,53 +11,79 @@ href="https://fonts.googleapis.com/css2?family=Montserrat:wght
 @400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <style>
-    body{
-        background-image: url(image/032243530.jpg);
-        background-repeat: no-repeat;
+    *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+background: url(image/24380-orig.jpg) no-repeat;
+background-repeat: no-repeat;
 		background-size: cover;
-    }
-    img{
-        border-radius: 50px;
         position: relative;
-        left: 510px;
-    }
-    p{
-        color: aliceblue;
-        position: relative;
-        left: 400px;
-    }
-    h1{
-        color: aliceblue;
-        position: relative;
-        left: 500px;
-    }
-    h5{
-        color: aliceblue;
-        position: relative;
-        left: 540px;
-    }
-    ul{
-        position: relative;
-        left: 400px;
-        width: 100px;
-    }
-    dl{
-        position: relative;
-        left: 510px;
-        bottom: 60px;
-        color: aliceblue;
-    }
+}
+.box{
+width: 450px;
+background: rgba(0, 0, 0, 0.4);
+padding: 40px;
+text-align: center;
+margin: auto;
+margin-top: 5%;
+color: white;
+font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+border-radius: 50%;
+width: 200px;
+height: 200px;
+}
+.box h1{
+font-size: 40px;
+letter-spacing: 4px;
+font-weight: 100;
+margin-top: 20px;
+}
+.box h5{
+font-size: 18px;
+letter-spacing: 3px;
+font-weight: 100;
+margin: 20px 0;
+}
+.box p{
+text-align: justify;
+}
+ul{
+margin: 0;
+padding: 0;
+}
+.box li{
+display: inline-block;
+margin: 6px;
+list-style: none;
+}
+.box li a{
+color: white;
+text-decoration: none;
+font-size: 60px;
+transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+color: #b9b9b9;
+margin: 0;
+}
 </style>
 </head>
 <body>
-<div style="width: 400px; height: 740px; background-color: lightskyblue; top: 0px; left: 400px; position: absolute;"></div>
 <div class="box">
-<img src="image/IMG_20220707_200849_853.jpg" alt="" class="box-img" width="150px" height="300px">
+<img src="image/IMG_20220707_200849_853.png" alt="" class="box-img" width="200px" height="200px">
 <h1>Жук Сергій</h1>
 <h5>Веб-програміст</h5>
 <p>
-Мені дуже подобається створювати сайти за допомогою <br> програми Visual Studio Code, граю у відеоігри та на<br> даний момент здаю на права. 
-Цікавлюсь військовою<br> тематикою. 
+    Мені дуже подобається створювати сайти за допомогою програми Visual Studio Code, граю у відеоігри та на даний момент здаю на права. 
+    Цікавлюсь військовою тематикою. 
 </p>
 <ul>
 <li><a href="#"><i class="fa fa-facebook-square" ariahidden="true"></i></a></li>
@@ -65,10 +91,6 @@ href="https://fonts.googleapis.com/css2?family=Montserrat:wght
 <li><a href="#"><i class="fa fa-google-plus-square"
 aria-hidden="true"></i></a></li>
 </ul>
-<dl>
-    <li>Пошта: zhuk.kms@gmail.com</li>
-    <li>Телефон: +380974703474</li>
-</dl>
 </div>
 </body>
 </html>
